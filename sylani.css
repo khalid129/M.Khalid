@@ -1,0 +1,387 @@
+/* body css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* uperr blue tag css start */
+.upper-tag{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 50px;
+    background-color: royalblue;
+}
+.social-media-icons ,.text ,.donatation-buttons{
+    text-align: center;
+    margin-top:5px;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+div.social-media-icons ul, div.donatation-buttons ul{
+    display: flex;
+}
+div.social-media-icons ul li{
+    list-style: none;
+}
+div.social-media-icons ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+div.donatation-buttons ul li{
+    list-style: none;
+    padding: 3px;
+}
+div.donatation-buttons ul li button{
+    border: 1px solid green;
+    color: green;
+    font-size: 0.8em;
+    padding: 6px;
+}
+.text{
+    padding-top:5px;
+    color: white;
+}
+/* uperr blue tag css end */
+.sticky-header{
+    position: sticky;
+    top: 0px;
+}
+/* header css start */
+header{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+header .sylani-logo img{
+    height: 70px;
+    width: 200px;
+    padding: 10px;
+}
+/* header css end */
+/* nav css start */
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header-div{
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    position: relative;
+}
+header nav ul li ul{
+    position: absolute;
+    top:30px;
+    background-color: whitesmoke;
+    display: none;
+}
+header nav ul li ul li{
+    display: block;
+    width: 200px;
+    font-size: 0.9em;
+}
+header nav ul li ul li ul li{
+    width: 260px;
+}
+header nav ul li ul li:hover{
+    border-radius: none;
+    background-color: royalblue;
+}
+header nav ul li:hover ul{
+    display: block;
+}
+header nav ul li a{
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    padding: 0 15px;
+    text-decoration: none;
+}
+header nav ul li a.active,
+header nav ul li a:hover{
+    color: white;
+    background-color: royalblue;
+    border-radius: 25px;
+    display: block;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+nav ul li:hover ul ul{
+    display:none;
+}
+.sub-menu-2:hover ul{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: inline-block;
+}
+.sub-menu-3 ul li{
+    display: none;
+}
+.sub-menu-3:hover ul li{
+    position: relative;
+    top: 0px;
+    left:0px;
+    display:block;
+}
+/* nav css end */
+/* menu icon css start */
+.menu-toggle{
+    float: right;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+/* menu icon css end */
+/* slider css start */
+.sec1{
+    width: 100%;
+}
+/* slider css end */
+/* introduction css start */
+.sec2{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.sec2 .tigger{
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.sec2 h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 50px;
+}
+.sec2 p{
+    text-align: justify;
+    margin: 0 100px;
+    line-height: 2.2em;
+    color: gray;
+    padding-bottom: 100px;
+}
+/* introduction css end */
+/* tigger css start */
+.sec3{
+    width: 100%;
+}
+.sec3 img{
+    width: 100%;
+    height: auto;
+}
+/* tigger css end */
+/* sadqa css start */
+.sec4{
+    width: 100%;
+}
+.sec4 h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    padding-top: 50px;
+}
+.sec4-doing-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.inner-div{
+    width: 330px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+.inner-div p{
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* sadqa css end */
+/* future work css start */
+.sec5{
+    width: 100%;
+}
+.future-work-sub-div{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin:50px;
+}
+.future-work-sub-div-1{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.sub-div1{
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 300px;
+}
+.sub-div1-heading{
+    color: royalblue;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+    display:inline-block;
+}
+.sub-div1-text{
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+}
+/* future work css end */
+/* image garelly css */
+.sec6 h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top:50px;
+}
+/* footer css start */
+.sec7{
+    width: 100%;
+    background-color: 	#000000;
+}
+.footer{
+    color: gray;
+    padding-top: 10px;
+}
+.footer p{
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.footer ul{
+    list-style: none;
+}
+.footer-useful-link{
+    display: inline-block;
+    border-bottom:2px solid green;
+}
+.footer-social-icon ul{
+    display: flex;
+    padding: 10px;
+}
+.footer-social-icon ul li{
+    padding: 5px;
+}
+.footer-social-icon ul li a{
+    color: white;
+    background-color: royalblue;
+    padding: 15px;
+    border-radius: 50%;
+}
+/* footer css end */
+/* copy right css start */
+.copy-right{
+    position: relative;
+    bottom: 0; 
+    left: 0; 
+    background-color: royalblue; 
+    color: white; 
+    height: 50px;
+    width: 100%;
+}
+.copy-right p{
+    padding: 10px;
+}
+/* copy right css end */
+/* media query css */
+@media (max-width: 991px){
+    header{
+        padding: 0 15px;
+    } 
+    .menu-toggle{
+        display: block;
+    }  
+    header nav{
+        position: absolute;
+        width: 100%;
+        height: calc(100vh-50px);
+        top: 70px;
+        left: -100%;
+        background-color: whitesmoke;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        text-align: left;
+    }
+    header nav ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(0.1,0.1,0.1,0.2);
+    }
+    .upper-tag{
+        height: auto;
+    }
+    header nav ul li.active ul{
+        position: relative;
+        top: 0px;
+        background-color: whitesmoke;
+    }
+    header nav ul li ul li{
+        width: 100%;
+        border-radius: none;
+    }
+    .sec1 > *img{
+        width: 485px;
+        height: 300px;
+    }
+    .sec2 p{
+        margin: 20px;
+    }
+    .sec2 h1{
+        font-size: 1.3em;
+    }
+    .sec4 h1{
+        font-size: 1.4em;
+    }
+    .sec4-doing-div{
+        padding-left: 5%;
+    }
+    .inner-div{
+        margin: 10px;
+    }
+    .sec6 h1{
+        font-size: 1.5em;
+    }
+    header nav ul li.active ul{
+        position: relative;
+        left: 0;
+    } 
+    .sub-div1-heading{
+        font-size: 1.1em;
+    }
+}
